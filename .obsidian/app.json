@@ -3,5 +3,6 @@
   "uriCallbacks": false,
   "newFileLocation": "root",
   "attachmentFolderPath": "cache",
-  "trashOption": "none"
+  "trashOption": "none",
+  "showInlineTitle": false
 }
