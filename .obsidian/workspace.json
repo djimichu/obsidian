@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learn/00. postgreSQL/01. Запросы/AND, OR, NOT.md",
-                "mode": "source",
+                "file": "learn/00. postgreSQL/01. Запросы/SELECT.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AND, OR, NOT"
+              "title": "SELECT"
             }
           }
         ]
@@ -185,13 +185,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "083f4b91d399a53b",
+  "active": "c54931dd1a82d033",
   "lastOpenFiles": [
+    "learn/00. postgreSQL/01. Запросы/AND, OR, NOT.md",
     "backup.bat",
     "backup.bat.txt",
     "Текстовый документ.txt",
     "2025-11-27.md",
-    "learn/00. postgreSQL/01. Запросы/AND, OR, NOT.md",
     "learn/00. postgreSQL/01. Запросы/WHERE.md",
     "learn/00. postgreSQL/00. PosrgreSQL Hub.md",
     "learn/00. postgreSQL/01. Запросы/00. Запросы Hub.md",
@@ -212,7 +212,6 @@
     "Без названия.canvas",
     "Без названия.base",
     "Без названия.md",
-    "learn/00. postgreSQL/01. Запросы",
     "cache/Pasted image 20251126064252.png",
     "Pasted image 20251126062952.png",
     "postgreSQL.md",
