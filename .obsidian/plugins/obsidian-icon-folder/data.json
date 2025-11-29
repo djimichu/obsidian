@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFilter",
+      "LiGroup",
+      "LiAlignJustify",
       "LiPercent",
-      "LiArrowDownWideNarrow",
-      "LiListCollapse",
-      "LiGitPullRequest",
-      "LiFilter"
+      "LiArrowDownWideNarrow"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -44,5 +44,8 @@
   "learn/00. postgreSQL/01. Запросы": "LiGitPullRequest",
   "learn/00. postgreSQL/01. Запросы/00. Запросы Hub.md": "LiListCollapse",
   "learn/00. postgreSQL/99. Холсты/Запросы.canvas": "LiGitPullRequest",
-  "learn/00. postgreSQL/01. Запросы/Matching LIKE.md": "LiPercent"
+  "learn/00. postgreSQL/01. Запросы/Matching LIKE.md": "LiPercent",
+  "learn/00. postgreSQL/01. Запросы/LIMIT.md": "LiAlignJustify",
+  "learn/00. postgreSQL/01. Запросы/GROUP BY.md": "LiGroup",
+  "learn/00. postgreSQL/01. Запросы/HAVING.md": "LiFilter"
 }
