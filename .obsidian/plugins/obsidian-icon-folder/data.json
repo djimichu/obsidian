@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiLanguages",
+      "LiLineHorizontal",
       "LiPackage2",
       "LiQuestionMarkGlyph",
-      "🇦🇨",
-      "LiBookType",
-      "LiList"
+      "🇦🇨"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -56,5 +56,7 @@
   "learn/00. postgreSQL/02. JOIN'ы/Типы соединений.md": "LiBookType",
   "learn/00. postgreSQL/02. JOIN'ы/Псевдонимы.md": "🇦🇨",
   "learn/00. postgreSQL/03. Подзапросы/WHERE EXISTS.md": "LiQuestionMarkGlyph",
-  "learn/00. postgreSQL/03. Подзапросы/Введение.md": "LiPackage2"
+  "learn/00. postgreSQL/03. Подзапросы/Введение.md": "LiPackage2",
+  "learn/00. postgreSQL/03. Подзапросы/ANY ALL.md": "LiLineHorizontal",
+  "learn/00. postgreSQL/04. DDL": "LiLanguages"
 }
