@@ -1,6 +1,11 @@
 ### DROP TABLE
 
 DROP TABLE удаляет существующую таблицу из БД
-```sql
-DROP TABLE table_name
-```
+
+> [!example] Удаляем таблицу
+> 
+> ```sql
+> DROP TABLE table_name
+> ```
+
+

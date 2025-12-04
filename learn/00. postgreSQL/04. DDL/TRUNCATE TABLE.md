@@ -5,8 +5,17 @@ TRUNCATE TABLE полностью очищает содержимое табли
 
 Однако она не может удалить данные, на которые есть ссылки из других таблиц. Если какая-нибудь таблица по внешнему ключу ссылается на таблицу которую мы хотим порезать, то не получится, сервер вернет ошибку.
 
-Также, с помощью TRUNCATE мы можем рестартить IDENTITY нашей таблицы:
-```sql
-TRUNCATE TABLE table_name RESTART IDENTITY
-```
+> [!example] Пример
+> 
+> ```sql
+> TRUNCATE TABLE table_name
+> ```
+> 
 
+Также, с помощью TRUNCATE мы можем рестартить IDENTITY нашей таблицы:
+> [!example] Пример
+> 
+> ```sql
+> TRUNCATE TABLE table_name RESTART IDENTITY
+> ```
+> 

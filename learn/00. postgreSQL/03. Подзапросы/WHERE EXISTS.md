@@ -23,3 +23,4 @@ WHERE EXISTS (SELECT customer_id FROM orders
 >-   
 >3. Повторяем для **каждого клиента**
 
+NOT EXISTS работает ровно наоборот.

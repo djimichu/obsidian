@@ -1,10 +1,70 @@
 {
 	"nodes":[
-		{"id":"b755b2d53032978b","type":"file","file":"learn/00. postgreSQL/01. Запросы/00. Запросы HUB.md","x":-262,"y":480,"width":400,"height":400,"color":"1"},
-		{"id":"dacadc5b22f6202f","type":"file","file":"learn/00. postgreSQL/01. Запросы/Скалярные функции.md","x":-1220,"y":-760,"width":600,"height":280,"color":"2"},
-		{"id":"01099aa75a29b539","type":"file","file":"learn/00. postgreSQL/01. Запросы/Упорядочивание.md","x":520,"y":-820,"width":400,"height":400,"color":"2"},
-		{"id":"c1812f2cafab18eb","type":"file","file":"learn/00. postgreSQL/01. Запросы/AND, OR, NOT.md","x":549,"y":-2252,"width":342,"height":147,"color":"2"},
-		{"id":"d989319e04d2ed35","type":"file","file":"learn/00. postgreSQL/01. Запросы/Matching LIKE.md","x":-920,"y":-2378,"width":400,"height":400,"color":"2"},
+		{
+			"id":"b755b2d53032978b",
+			"type":"file",
+			"file":"learn/00. postgreSQL/01. Запросы/00. Запросы HUB.md",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-262,
+			"y":480,
+			"width":400,
+			"height":400,
+			"color":"1"
+		},
+		{
+			"id":"dacadc5b22f6202f",
+			"type":"file",
+			"file":"learn/00. postgreSQL/01. Запросы/Скалярные функции.md",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-1220,
+			"y":-760,
+			"width":600,
+			"height":280,
+			"color":"2"
+		},
+		{
+			"id":"01099aa75a29b539",
+			"type":"file",
+			"file":"learn/00. postgreSQL/01. Запросы/Упорядочивание.md",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":520,
+			"y":-820,
+			"width":400,
+			"height":400,
+			"color":"2"
+		},
+		{
+			"id":"c1812f2cafab18eb",
+			"type":"file",
+			"file":"learn/00. postgreSQL/01. Запросы/AND, OR, NOT.md",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":549,
+			"y":-2252,
+			"width":342,
+			"height":147,
+			"color":"2"
+		},
+		{
+			"id":"d989319e04d2ed35",
+			"type":"file",
+			"file":"learn/00. postgreSQL/01. Запросы/Matching LIKE.md",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-920,
+			"y":-2378,
+			"width":400,
+			"height":400,
+			"color":"2"
+		},
 		{
 			"id":"b25d4408375d3072",
 			"type":"file",
@@ -18,8 +78,32 @@
 			"height":280,
 			"color":"2"
 		},
-		{"id":"bb57ade6c42ae99d","type":"file","file":"learn/00. postgreSQL/01. Запросы/LIMIT.md","x":1120,"y":-1320,"width":400,"height":400,"color":"2"},
-		{"id":"8e85a24e156b7fbb","type":"file","file":"learn/00. postgreSQL/01. Запросы/SELECT.md","x":-216,"y":-563,"width":309,"height":166,"color":"2"}
+		{
+			"id":"bb57ade6c42ae99d",
+			"type":"file",
+			"file":"learn/00. postgreSQL/01. Запросы/LIMIT.md",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":1120,
+			"y":-1320,
+			"width":400,
+			"height":400,
+			"color":"2"
+		},
+		{
+			"id":"8e85a24e156b7fbb",
+			"type":"file",
+			"file":"learn/00. postgreSQL/01. Запросы/SELECT.md",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-216,
+			"y":-563,
+			"width":309,
+			"height":166,
+			"color":"2"
+		}
 	],
 	"edges":[
 		{"id":"1684e3193873a89c","fromNode":"b25d4408375d3072","fromSide":"top","toNode":"c1812f2cafab18eb","toSide":"bottom"},
