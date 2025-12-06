@@ -41,4 +41,11 @@ DELETE FROM author
 > WHERE rating < 4.5 
 > RETURNING * -- вернет всех авторов, которых мы удалили
 > ```
-> 
+
+> [!example] При вставке данных:
+> ```sql
+> INSERT INTO book
+> VALUES 
+> (2, 'book1', '123456', 54)
+> RETURNING *
+> ```
