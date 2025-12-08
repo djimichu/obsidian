@@ -50,7 +50,6 @@
   "learn/00. postgreSQL/01. Запросы/UNION, INSERSECT, EXCEPT.md": "LiLink2",
   "learn/00. postgreSQL/02. JOIN'ы": "LiLinkGlyph",
   "learn/00. postgreSQL/01. Запросы/00. Запросы HUB.md": "LiListCollapse",
-  "learn/00. postgreSQL/02. JOIN'ы/Соединения HUB.md": "LiList",
   "learn/00. postgreSQL/03. Подзапросы": "LiGitPullRequest",
   "learn/00. postgreSQL/03. Подзапросы/Подзапросы HUB.md": "LiList",
   "learn/00. postgreSQL/02. JOIN'ы/Типы соединений.md": "LiBookType",
@@ -58,5 +57,6 @@
   "learn/00. postgreSQL/03. Подзапросы/WHERE EXISTS.md": "LiQuestionMarkGlyph",
   "learn/00. postgreSQL/03. Подзапросы/Введение.md": "LiPackage2",
   "learn/00. postgreSQL/03. Подзапросы/ANY ALL.md": "LiLineHorizontal",
-  "learn/00. postgreSQL/04. DDL": "LiLanguages"
+  "learn/00. postgreSQL/04. DDL": "LiLanguages",
+  "learn/00. postgreSQL/02. JOIN'ы/JOIN HUB.md": "LiList"
 }

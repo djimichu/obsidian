@@ -4,91 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ea23190a30c5a120",
+        "id": "556a0b2b4ec1132b",
         "type": "tabs",
         "children": [
           {
-            "id": "6db8530531c3824b",
+            "id": "84297029dadc9041",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learn/00. postgreSQL/05. Представления VIEW/Введение.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Введение"
-            }
-          },
-          {
-            "id": "dcaa3207aecb4416",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learn/00. postgreSQL/04. DDL/Последовательность.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Последовательность"
-            }
-          },
-          {
-            "id": "ee75d7ccf144928a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learn/00. postgreSQL/04. DDL/Последовательность.md",
+                "file": "learn/00. postgreSQL/06. CASE & COALESCE/COALESCE & NULLIF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Последовательность"
-            }
-          },
-          {
-            "id": "a3ef0cdb22116dbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learn/00. postgreSQL/04. DDL/Ограничения.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ограничения"
-            }
-          },
-          {
-            "id": "28ed8066809959d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learn/00. postgreSQL/04. DDL/UPDATE, DELETE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "UPDATE, DELETE"
-            }
-          },
-          {
-            "id": "57fc687de0768326",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learn/00. postgreSQL/04. DDL/FOREIGN KEY.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "FOREIGN KEY"
+              "title": "COALESCE & NULLIF"
             }
           }
         ]
@@ -266,42 +196,43 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "6db8530531c3824b",
+  "active": "083f4b91d399a53b",
   "lastOpenFiles": [
-    "learn/00. postgreSQL/04. DDL/0.0 DDL HUB.md",
+    "learn/00. postgreSQL/06. CASE & COALESCE/CASE WHEN.md",
+    "learn/00. postgreSQL/06. CASE & COALESCE/COALESCE & NULLIF.md",
     "learn/00. postgreSQL/05. Представления VIEW/Введение.md",
-    "learn/00. postgreSQL/05. Представления VIEW",
-    "learn/00. postgreSQL/04. DDL/Последовательность.md",
-    "learn/00. postgreSQL/04. DDL/PRIMARY KEY.md",
-    "learn/00. postgreSQL/04. DDL/Ограничения.md",
-    "learn/00. postgreSQL/04. DDL/UPDATE, DELETE.md",
-    "learn/00. postgreSQL/04. DDL/FOREIGN KEY.md",
+    "learn/00. postgreSQL/05. Представления VIEW/Опция CHECK.md",
+    "learn/00. postgreSQL/05. Представления VIEW/VIEW HUB.md",
+    "learn/00. postgreSQL/05. Представления VIEW/Создание представлений.md",
+    "learn/00. postgreSQL/05. Представления VIEW/Обновляемые представления.md",
+    "learn/00. postgreSQL/05. Представления VIEW/Изменения.md",
+    "learn/00. postgreSQL/04. DDL/CREATE TABLE.md",
     "learn/00. postgreSQL/04. DDL/ALTER TABLE.md",
     "learn/00. postgreSQL/04. DDL/Введение.md",
-    "learn/00. postgreSQL/00. PosrgreSQL HUB.md",
-    "learn/00. postgreSQL/02. JOIN'ы/Типы соединений.md",
-    "learn/00. postgreSQL/04. DDL/TRUNCATE TABLE.md",
     "learn/00. postgreSQL/04. DDL/DROP TABLE.md",
-    "learn/00. postgreSQL/04. DDL/CREATE TABLE.md",
-    "learn/00. postgreSQL/04. DDL/INSERT.md",
-    "learn/00. postgreSQL/02. JOIN'ы/Соединения HUB.md",
-    "learn/00. postgreSQL/01. Запросы/GROUP BY.md",
-    "learn/00. postgreSQL/01. Запросы/AND, OR, NOT.md",
-    "learn/00. postgreSQL/01. Запросы/Упорядочивание.md",
-    "learn/00. postgreSQL/01. Запросы/Скалярные функции.md",
-    "learn/00. postgreSQL/01. Запросы/HAVING.md",
-    "learn/00. postgreSQL/01. Запросы/SELECT.md",
-    "learn/00. postgreSQL/01. Запросы/00. Запросы HUB.md",
-    "learn/00. postgreSQL/99. Холсты/Запросы.canvas",
+    "learn/00. postgreSQL/04. DDL/TRUNCATE TABLE.md",
+    "learn/00. postgreSQL/04. DDL/0.0 DDL HUB.md",
+    "learn/00. postgreSQL/04. DDL/UPDATE, DELETE.md",
+    "learn/00. postgreSQL/04. DDL/Последовательность.md",
+    "learn/00. postgreSQL/04. DDL/Ограничения.md",
+    "learn/00. postgreSQL/03. Подзапросы/WHERE EXISTS.md",
+    "learn/00. postgreSQL/03. Подзапросы/ANY ALL.md",
     "learn/00. postgreSQL/03. Подзапросы/Подзапросы HUB.md",
     "learn/00. postgreSQL/03. Подзапросы/Введение.md",
-    "learn/00. postgreSQL/03. Подзапросы/ANY ALL.md",
+    "learn/00. postgreSQL/02. JOIN'ы/JOIN HUB.md",
+    "learn/00. postgreSQL/02. JOIN'ы/Типы соединений.md",
+    "learn/00. postgreSQL/02. JOIN'ы/Псевдонимы.md",
+    "learn/00. postgreSQL/01. Запросы/Matching LIKE.md",
+    "learn/00. postgreSQL/01. Запросы/LIMIT.md",
+    "learn/00. postgreSQL/06. CASE & COALESCE",
+    "learn/00. postgreSQL/99. Холсты/Запросы.canvas",
+    "cache/Pasted image 20251201063244.png",
+    "learn/00. postgreSQL/05. Представления VIEW",
     "learn/00. postgreSQL/04. DDL",
     "learn/00. postgreSQL/03. Подзапросы",
     "cache/Pasted image 20251202012816.png",
     "cache/Pasted image 20251202012657.png",
     "Без названия.base",
-    "cache/Pasted image 20251201063244.png",
     "cache/Pasted image 20251201063304.png",
     "Без названия.canvas",
     "learn/00. postgreSQL/02. JOIN'ы",
@@ -311,7 +242,6 @@
     "Текстовый документ.txt",
     "01. Запросы",
     "learn/00. postgreSQL/01. Запросы/Виды.canvas",
-    "learn/00. postgreSQL/99. Холсты",
     "Pasted image 20251126062952.png"
   ]
 }

@@ -21,13 +21,20 @@
 > ALTER TABLE student
 > ADD COLUMN enrolled date;
 > ``` 
-	
-	- Также мы можем удалять столбцы с помощью `DROP COLUMN`
-> [!example]- Удаляем столбец
-> ```sql
+
+
+---
+
+
+- **DROP COLUMN** *column_name*
+	- Можем удалять столбцы с помощью `DROP COLUMN`
+>[!example]- Удаляем столбец
+>```sql
 > ALTER TABLE student
 > DROP COLUMN middle_name;
 > ```
+
+
 
 ---
 
