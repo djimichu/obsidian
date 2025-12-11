@@ -83,3 +83,87 @@ FROM customers
 [^2]:  пустая строка: ''
 
 [^1]: первый попавшийся аргумент, то есть тот аргумент, который будет стоять первее
+
+---
+
+> [!question]- Задачи по теме
+> 
+> > [!example]- Задание 1
+> > 1. Выполните следующий код (записи необходимы для тестирования корректности выполнения ДЗ):
+> > 
+> > ```sql
+> > insert into customers(customer_id, contact_name, city, country, company_name)
+> > values 
+> > ('AAAAA', 'Alfred Mann', NULL, 'USA', 'fake_company'),
+> > ('BBBBB', 'Alfred Mann', NULL, 'Austria','fake_company');
+> > ```
+> > 
+> > После этого выполните задание:
+> > 
+> > Вывести имя контакта заказчика, его город и страну, отсортировав по возрастанию по имени контакта и городу,
+> > 
+> > а если город равен NULL, то по имени контакта и стране. Проверить результат, используя заранее вставленные строки.
+> 
+> > [!example]- Задание 2
+> > 2. Вывести наименование продукта, цену продукта и столбец со значениями
+> > 
+> > too expensive если цена >= 100
+> > 
+> > average если цена >=50 но < 100
+> > 
+> > low price если цена < 50
+> > 
+> 
+> > [!example]- Задание 3
+> > 3. Найти заказчиков, не сделавших ни одного заказа. Вывести имя заказчика и значение 'no orders' если order_id = NULL.
+> 
+> > [!example]- Задание 4
+> > 1. Вывести ФИО сотрудников и их должности. В случае если должность = Sales Representative вывести вместо неё Sales Stuff.
+
+> [!success]- Решение задач
+> 
+> > [!example]- Решение 1
+> > ```sql
+> > SELECT contact_name, city, country
+> > FROM customers
+> > ORDER BY contact_name, 
+> > (
+> > 	CASE WHEN city IS null THEN  country
+> > 	ELSE city
+> > 	END
+> > )
+> > ```
+> 
+> > [!example]- Решение 2
+> > ```sql
+> > SELECT product_name, unit_price,
+> > (
+> > 	CASE
+> > 		WHEN unit_price >= 100 THEN 'too expensive'
+> > 		WHEN unit_price >= 50 AND unit_price < 100 THEN 'average '
+> > 		ELSE'low price'
+> > 	END 	
+> > ) AS string
+> > FROM products
+> > ORDER BY unit_price
+> > ```
+> 
+> > [!example]- Решение 3
+> > ```sql
+> > SELECT contact_name, COALESCE(order_id::TEXT, 'no orders') AS orders
+> > FROM customers
+> > LEFT JOIN orders USING(customer_id)
+> > WHERE order_id IS NULL
+> > ```
+> > 
+> 
+> > [!example]- Решение 4
+> > ```sql
+> > SELECT CONCAT(first_name, ' ', last_name),
+> > 	COALESCE(NULLIF(title, 'Sales Representative'), 'Sales Stuff') AS title_emp
+> > FROM employees
+> > --Важно первым аргументов ставить то, что мы хотим вывести: title, 'arg2'
+> > ```
+> > 
+
+
