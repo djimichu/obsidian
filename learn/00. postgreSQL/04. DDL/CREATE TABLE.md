@@ -22,3 +22,20 @@
 >  ```
 
 
+Также можем создавать таблицы на основе других таблиц, сходу заполняя данными:
+
+```sql
+SELECT *
+INTO new_table
+FROM source_table
+WHERE condition;
+```
+или, то же что и:
+```sql
+CREATE TABLE new_table AS
+SELECT *
+FROM source_table
+WHERE condition; -- лучше читаемость!
+```
+Оба способа делают одно и то же.  Второй предпочтителен, лучше читаемость.
+
