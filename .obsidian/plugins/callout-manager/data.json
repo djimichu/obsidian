@@ -1,0 +1,41 @@
+{
+  "callouts": {
+    "custom": [],
+    "settings": {
+      "danger": [
+        {
+          "changes": {
+            "icon": "lucide-arrow-down-from-line",
+            "color": "168, 130, 255"
+          }
+        }
+      ],
+      "note": [
+        {
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "233, 151, 63"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "2, 122, 255"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}
